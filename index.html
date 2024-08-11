@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="player.css">
+    <title>Video and Audio Player</title>
+</head>
+
+<body>
+    <div id="youtubePlayer" class="player-size"></div>
+    <div id="video-overlay" class="video-overlay">
+        <div id="title" class="title"></div>
+        <div id="address" class="address"></div>
+        <div id="remaining-time" class="remaining-time"></div>
+        <!-- 안내 문구를 표시할 요소 추가 -->
+        <div id="notification" class="notification"></div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="youtube_player.js"></script>
+</body>
+</html>

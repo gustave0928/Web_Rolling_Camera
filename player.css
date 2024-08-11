@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden; /* 수평 스크롤 숨기기 */
+    overflow-y: hidden; /* 수직 스크롤 숨기기 */
+}
+
+.player-size {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.hidden-size {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    opacity: 0;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh; /* 10% of viewport height */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: transparent !important;
+}
+
+.video-overlay .title,
+.video-overlay .address,
+.video-overlay .remaining-time
+.video-overlay .notification {
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+
+.video-overlay .title {
+    font-size: calc(1.3em + 0.4vw);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.video-overlay .address {
+    font-size: calc(0.8em + 0.4vw);
+    margin-left: 10px;
+}
+
+.video-overlay .remaining-time {
+    font-size: calc(0.7em + 0.3vw);
+    margin-left: 10px;
+}
+
+.video-overlay .local-time {
+    font-size: calc(0.8em + 0.3vw);
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.video-overlay .notification {
+    display: none; /* 초기 상태에서는 표시되지 않음 */
+    font-size: calc(0.8em + 0.3vw);
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.weather {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#top-row {
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: flex-end; /* 수평 우측 정렬 */
+    height: 10vh; /* 10% of viewport height */
+    margin-bottom: 3px;
+}
+
+#bottom-row {
+    display: flex;
+    align-items: center; /* 이 부분 추가 */
+    height: 6vh; /* 6% of viewport height */
+}
