@@ -164,15 +164,35 @@ function initYouTubePlayers() {
 
 // 플레이어 준비 완료 이벤트
 function onPlayerReady(event) {
-    console.log('YouTube Player is ready.');
-    videoPlayerReady = true;
+  console.log('YouTube Player is ready.');
+  videoPlayerReady = true;
 
-    if (videoPlaylistData && videoPlaylistData.length > 0) {
-        event.target.setShuffle(true);
-        event.target.setLoop(true);
-        event.target.setPlaybackQuality('highres'); // Set to highres quality for video
-        playNextVideo();  // 데이터가 로드된 후에만 재생 시작
-    }
+  function tryPlayNextVideo(retryCount = 5) {
+      if (retryCount <= 0) {
+        console.error('Failed to initialize YouTube Player after multiple attempts.');
+        // 자동 새로고침 안내 메시지 표시
+        alert('Youtube player 로드에 실패했습니다. 2초 뒤에 페이지 새로고침을 합니다.');
+        setTimeout(() => {
+            location.reload(); // 2초 후에 페이지 자동 새로고침
+        }, 2000);
+        return;
+      }
+
+      if (typeof youtubePlayer.loadVideoById === 'function') {
+          console.log('youtubePlayer.loadVideoById is available, proceeding to play next video.');
+          playNextVideo();  // 데이터가 로드된 후에만 재생 시작
+      } else {
+          console.warn(`loadVideoById is not available yet, retrying... (${6 - retryCount}/5)`);
+          setTimeout(() => tryPlayNextVideo(retryCount - 1), 500); // 200ms 후에 다시 시도
+      }
+  }
+
+  if (videoPlaylistData && videoPlaylistData.length > 0) {
+      event.target.setShuffle(true);
+      event.target.setLoop(true);
+      event.target.setPlaybackQuality('highres'); // Set to highres quality for video
+      tryPlayNextVideo();  // 재시도 로직을 포함한 함수 호출
+  }
 }
 
 // 오디오 플레이어 준비 완료 이벤트
@@ -284,9 +304,9 @@ async function playNextVideo() {
   for (const video of videoPlaylistData) {
       const videoTime = new Date().toLocaleString("en-US", { timeZone: video.time_zone });
       const videoHour = new Date(videoTime).getHours();
-  
+
       const isVideoNightTime = videoHour > 16 || videoHour < 7;
-  
+
       // 조건 1: night_mode가 켜져 있고, 비디오 시간이 밤인지 확인
       // 조건 2: video_mode와 일치하는 비디오만 재생
       if (
@@ -313,9 +333,16 @@ async function playNextVideo() {
       const selectedVideoIndex = filteredPlaylist.indexOf(unplayedVideos[randomIndex]);
       console.log('Selected video index:', selectedVideoIndex);
       playedVideos.add(selectedVideoIndex); // 선택된 비디오 인덱스를 기록
-  
+
       videoObj = unplayedVideos[randomIndex];
-  
+
+      // try {
+      //   const data = await fetchWeatherData(videoObj.weather_city);
+      //   updateWeatherInfo(data);
+      // } catch (err) {
+      //   console.error('Failed to fetch weather data:', err);
+      // }
+
       console.log('videoObj video_id:', videoObj.video_id);    
       if (youtubePlayer && typeof youtubePlayer.loadVideoById === 'function') {
           console.log('youtubePlayer is ready and loadVideoById is a function');
@@ -337,6 +364,7 @@ async function playNextVideo() {
   }
   toggleBackgroundColor();
 }
+
 // 배경색 토글
 function toggleBackgroundColor() {
   setTimeout(() => {
