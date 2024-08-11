@@ -91,6 +91,21 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
+.weather-icon, .rise-icon, .set-icon {
+    display: none;
+    width: 3em;  /* 텍스트 크기와 비례한 이미지 크기 설정 */
+    height: 3em; /* 텍스트 크기와 비례한 이미지 크기 설정 */
+    vertical-align: middle; /* 이미지와 텍스트가 수직으로 정렬되도록 설정 */
+}
+
+.rise-icon {
+    margin-right: 10px; /* set-icon과의 간격을 위한 마진 추가 */
+}
+
+.set-icon {
+    margin-left: 10px; /* 필요에 따라 좌측에도 마진 추가 가능 */
+}
+
 #top-row {
     display: flex;
     align-items: center; /* 수직 중앙 정렬 */
@@ -101,6 +116,6 @@ body {
 
 #bottom-row {
     display: flex;
-    align-items: center; /* 이 부분 추가 */
-    height: 6vh; /* 6% of viewport height */
+    align-items: center;
+    height: 6vh;
 }

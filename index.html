@@ -16,8 +16,24 @@
         <!-- 안내 문구를 표시할 요소 추가 -->
         <div id="notification" class="notification"></div>
     </div>
+        
+    <div class="weather">
+        <div id="top-row">
+            <img id="weather-icon" class="weather-icon" src="" />
+            <span id="temperature" class="temperature"></span>
+        </div>
+        <div id="bottom-row">
+            <img id="rise-icon" class="rise-icon" src=""/>
+            <span id="rise" class="rise"></span>
+            <img id="set-icon" class="set-icon" src=""/>
+            <span id="set" class="set"></span>
+        </div>
+    </div>
 
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="youtube_player.js"></script>
+    <!-- SunCalc 라이브러리 포함 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/suncalc/1.8.0/suncalc.js"></script>
+
 </body>
 </html>

@@ -25,6 +25,7 @@ let playlistData;
 let isInit = true;
 let shouldStopTimer = false;
 let isTimerPaused = false; // 타이머 정지 상태 여부
+let isSunCalLoaded = false;
 let hideButtonTimeout;
 let countdownTimer;
 let playlistState = 0;
@@ -43,6 +44,24 @@ const riseElement = document.getElementById('rise');
 const setElement = document.getElementById('set');
 const riseIconElement = document.getElementById('rise-icon');
 const setIconElement = document.getElementById('set-icon');
+
+// SunCalc 로드 여부를 확인하는 함수
+function initializeSunCalc(retryCount = 5) {
+  if (typeof SunCalc !== 'undefined') {
+      console.log('SunCalc 라이브러리 로드 완료.');
+
+      isSunCalLoaded = true;    
+  } else if (retryCount > 0) {
+      console.warn(`SunCalc 라이브러리가 로드되지 않았습니다. ${6 - retryCount}/5 재시도 중...`);
+      setTimeout(() => initializeSunCalc(retryCount - 1), 500); // 500ms 후에 다시 시도
+  } else {
+      console.error('SunCalc 라이브러리 로드에 실패했습니다. 페이지를 새로고침 해주세요.');
+  }
+}
+
+window.onload = function() {
+  initializeSunCalc();
+};
 
 // YouTube iframe API 스크립트 삽입
 insertScript('https://www.youtube.com/iframe_api');
@@ -335,6 +354,57 @@ async function playNextVideo() {
       playedVideos.add(selectedVideoIndex); // 선택된 비디오 인덱스를 기록
 
       videoObj = unplayedVideos[randomIndex];
+
+      if(isSunCalLoaded) {
+        
+        const weatherCity = videoObj.weather_city;
+        if (isNaN(parseInt(weatherCity.charAt(0)))) {          
+          console.log('Invalid weather city:', weatherCity);
+          // 이미지 요소를 숨김
+          riseIconElement.style.display = 'none';
+          setIconElement.style.display = 'none';
+        } else {
+          const [latitude, longitude] = weatherCity.split(", ").map(Number);
+  
+          // 현재 날짜와 위치를 기반으로 일출 및 일몰 시간 계산
+          const times = SunCalc.getTimes(new Date(), latitude, longitude);
+  
+          // 계산된 일출 및 일몰 시간
+          const sunrise = times.sunrise;
+          const sunset = times.sunset;
+  
+          // 일출 및 일몰 시간을 현지 시간대로 변환하여 표시
+          const sunriseStr = sunrise.toLocaleTimeString('en-US', {
+              timeZone: videoObj.time_zone,
+              hour: '2-digit',
+              minute: '2-digit',
+              hour12: true  // AM/PM 형식 사용
+          });
+          
+          const sunsetStr = sunset.toLocaleTimeString('en-US', {
+              timeZone: videoObj.time_zone,
+              hour: '2-digit',
+              minute: '2-digit',
+              hour12: true  // AM/PM 형식 사용
+          });
+  
+          console.log(`일출 시간: ${sunriseStr}`);
+          console.log(`일몰 시간: ${sunsetStr}`);
+
+          riseElement.textContent = sunriseStr;
+          setElement.textContent = sunsetStr;
+
+          riseIconElement.src = 'img/sunrise.png';
+          setIconElement.src = 'img/sunset.png';
+
+          riseIconElement.style.display = 'block';
+          setIconElement.style.display = 'block';
+        }
+      } else {
+        // 이미지 요소를 숨김
+        riseIconElement.style.display = 'none';
+        setIconElement.style.display = 'none';
+      }
 
       // try {
       //   const data = await fetchWeatherData(videoObj.weather_city);
