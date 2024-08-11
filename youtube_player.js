@@ -32,6 +32,7 @@ let audioPlaylistData;
 let videoPlaylistData; // Array to store video playlist data
 let currentAudioIndex = 0; // Current index for audio playback
 let currentVideoIndex = 0; // Current index for video playback
+let playedVideos = new Set(); // 이미 재생된 비디오의 인덱스를 저장하는 Set
 
 // DOM 요소
 const playerElement = document.getElementById('youtubePlayer');
@@ -271,58 +272,71 @@ function onPlayerError(event) {
 
 // 다음 비디오 재생
 async function playNextVideo() {
-    console.log('Playing next video.');
-    if(!videoPlayerReady)   return;
-    stopCountdown();
-  
-    currentMode = getCurrentMode();
-    console.log('Current mode:', currentMode);
-  
-    let filteredPlaylist = [];
-  
-    for (const video of videoPlaylistData) {
+  console.log('Playing next video.');
+  if (!videoPlayerReady) return;
+  stopCountdown();
+
+  currentMode = getCurrentMode();
+  console.log('Current mode:', currentMode);
+
+  let filteredPlaylist = [];
+
+  for (const video of videoPlaylistData) {
       const videoTime = new Date().toLocaleString("en-US", { timeZone: video.time_zone });
       const videoHour = new Date(videoTime).getHours();
   
       const isVideoNightTime = videoHour > 16 || videoHour < 7;
-
+  
       // 조건 1: night_mode가 켜져 있고, 비디오 시간이 밤인지 확인
       // 조건 2: video_mode와 일치하는 비디오만 재생
       if (
-        (!nightMode || (nightMode && isVideoNightTime && video.night_view)) && 
-        (videoMode === Mode.ALL || video.video_mode === videoMode)
+          (!nightMode || (nightMode && isVideoNightTime && video.night_view)) && 
+          (videoMode === Mode.ALL || video.video_mode === videoMode)
       ) {
-        filteredPlaylist.push(video);
+          filteredPlaylist.push(video);
       }
-    }
-  
-    console.log('Filtered playlist length:', filteredPlaylist.length);
-  
-    if (filteredPlaylist.length > 0) {
-        const randomIndex = getRandomIndex(filteredPlaylist.length);
-        console.log('Filtered randomIndex:', randomIndex);
-        videoObj = filteredPlaylist[randomIndex];
-    
-        console.log('videObj video_id:', videoObj.video_id);    
-        if (youtubePlayer && typeof youtubePlayer.loadVideoById === 'function') {
-            console.log('youtubePlayer is ready and loadVideoById is a function');
-            youtubePlayer.loadVideoById(videoObj.video_id);
-            youtubePlayer.setPlaybackQuality('highres'); // Set to highres quality for video
-            youtubePlayer.playVideo();
-        } else {
-            console.error('youtubePlayer is not ready or loadVideoById is not a function');
-            return;
-        }
-        titleElement.innerText = videoObj.title;
-        addressElement.innerText = videoObj.address;
-    }
-  
-    if (!isTimerPaused) {
-      startCountdown();
-    }
-    toggleBackgroundColor();
-}
+  }
 
+  console.log('Filtered playlist length:', filteredPlaylist.length);
+
+  // 모든 비디오가 재생되었을 경우, playedVideos 초기화
+  if (playedVideos.size === filteredPlaylist.length) {
+      console.log('All videos have been played. Resetting played videos.');
+      playedVideos.clear();
+  }
+
+  // 아직 재생되지 않은 비디오 필터링
+  const unplayedVideos = filteredPlaylist.filter((_, index) => !playedVideos.has(index));
+
+  if (unplayedVideos.length > 0) {
+      const randomIndex = getRandomIndex(unplayedVideos.length);
+      const selectedVideoIndex = filteredPlaylist.indexOf(unplayedVideos[randomIndex]);
+      console.log('Selected video index:', selectedVideoIndex);
+      playedVideos.add(selectedVideoIndex); // 선택된 비디오 인덱스를 기록
+  
+      videoObj = unplayedVideos[randomIndex];
+  
+      console.log('videoObj video_id:', videoObj.video_id);    
+      if (youtubePlayer && typeof youtubePlayer.loadVideoById === 'function') {
+          console.log('youtubePlayer is ready and loadVideoById is a function');
+          youtubePlayer.loadVideoById(videoObj.video_id);
+          youtubePlayer.setPlaybackQuality('highres'); // Set to highres quality for video
+          youtubePlayer.playVideo();
+      } else {
+          console.error('youtubePlayer is not ready or loadVideoById is not a function');
+          return;
+      }
+      titleElement.innerText = videoObj.title;
+      addressElement.innerText = videoObj.address;
+  } else {
+      console.log('No unplayed videos left.');
+  }
+
+  if (!isTimerPaused) {
+    startCountdown();
+  }
+  toggleBackgroundColor();
+}
 // 배경색 토글
 function toggleBackgroundColor() {
   setTimeout(() => {
