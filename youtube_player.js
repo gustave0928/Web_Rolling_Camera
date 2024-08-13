@@ -61,6 +61,7 @@ function initializeSunCalc(retryCount = 5) {
 
 window.onload = function() {
   initializeSunCalc();
+  
 };
 
 // YouTube iframe API 스크립트 삽입
@@ -112,6 +113,7 @@ function getCurrentMode() {
   return currentHour >= 18 || currentHour < 6 ? Mode.NIGHT : Mode.ALL;
 }
 
+// https://drive.google.com/file/d/1rG_1VQPeS97dgo8LX_opcP4Dg64QkBxQ/view?usp=drive_link
 async function readVideoPlayList() {
   try {
     const data = await loadJSONFileWithCacheBusting('youtube_video.json'); // Load the JSON file
@@ -324,15 +326,35 @@ async function playNextVideo() {
       const videoTime = new Date().toLocaleString("en-US", { timeZone: video.time_zone });
       const videoHour = new Date(videoTime).getHours();
 
+      // PC의 현재 시간 기준으로 낮/밤 여부 판단
+      const localHour = new Date().getHours();
+      const isLocalNightTime = localHour > 16 || localHour < 7;
+
       const isVideoNightTime = videoHour > 16 || videoHour < 7;
 
-      // 조건 1: night_mode가 켜져 있고, 비디오 시간이 밤인지 확인
-      // 조건 2: video_mode와 일치하는 비디오만 재생
-      if (
-          (!nightMode || (nightMode && isVideoNightTime && video.night_view)) && 
-          (videoMode === Mode.ALL || video.video_mode === videoMode)
-      ) {
+      let nightCondition;
+      if (isLocalNightTime) {
+          // 로컬 PC 시간이 밤일 때
+          if (videoMode === Mode.ALL) {
+              nightCondition = isVideoNightTime ? video.night_view : true;
+          } else if (videoMode === Mode.NIGHT) {
+              nightCondition = isVideoNightTime && video.night_view;
+          }
+      } else {
+          // 로컬 PC 시간이 낮일 때
+          if (videoMode === Mode.ALL || videoMode === Mode.NIGHT) {
+              nightCondition = isVideoNightTime ? video.night_view : true;
+          }
+      }
+
+      const modeCondition = (videoMode === Mode.ALL || video.video_mode === videoMode);
+
+      // console.log(`Video ID: ${video.video_id}, Night Condition: ${nightCondition}, Mode Condition: ${modeCondition}`);
+
+      if (nightCondition && modeCondition) {
           filteredPlaylist.push(video);
+      } else {
+          // console.log(`Video excluded: ${video.video_id}`);
       }
   }
 
@@ -357,7 +379,7 @@ async function playNextVideo() {
 
       if(isSunCalLoaded) {
         
-        const weatherCity = videoObj.weather_city;
+        const weatherCity = videoObj.coords;
         if (isNaN(parseInt(weatherCity.charAt(0)))) {          
           console.log('Invalid weather city:', weatherCity);
           // 이미지 요소를 숨김
