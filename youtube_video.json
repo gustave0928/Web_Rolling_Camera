@@ -29,7 +29,7 @@
   {
       "address": "도쿠시마현(徳島県) 도쿠시마시(徳島市)",
       "title": "미야마산, 도쿠시마",
-      "video_id": "r-Iuy0igudE",
+      "video_id": "kaKiOpObBU0",
       "video_mode": "mountain",
       "night_view": true,
       "weather_city": "Tokushima-shi",
@@ -249,7 +249,7 @@
   {
       "address": "홋카이도(北海道) 하코다테시(函館市)",
       "title": "하코다테역・하코다테만",
-      "video_id": "b7CZpCU28YY",
+      "video_id": "fLMxN--sNiA",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "函館市",
@@ -262,7 +262,7 @@
   {
       "address": "홋카이도(北海道) 하코다테시(函館市)",
       "title": "하코다테역 앞",
-      "video_id": "P8qN3Wt9CrU",
+      "video_id": "HOW2AMFbTy8",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "函館市",
@@ -679,7 +679,7 @@
   {
       "address": "홋카이도 아부타(虻田)군",
       "title": "니세코 빌리지, 홋카이도",
-      "video_id": "nGVr0zLGjZ4",
+      "video_id": "Wegg9IwYs-8",
       "video_mode": "landmark",
       "night_view": false,
       "weather_city": "札幌市",
@@ -705,7 +705,7 @@
   {
       "address": "가나가와현(神奈川県) 요코하마(横浜市)",
       "title": "미나토미라이/기샤미치 1, 요코하마",
-      "video_id": "02kDyjsgCiY",
+      "video_id": "lIxOXGFVWC0",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "yokohama",
@@ -718,7 +718,7 @@
   {
       "address": "가나가와현(神奈川県) 요코하마(横浜市)",
       "title": "미나토미라이/기샤미치 2, 요코하마",
-      "video_id": "1ZWmdqyKfa0",
+      "video_id": "d0vJTlNAlzs",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "yokohama",
@@ -1739,7 +1739,7 @@
   {
       "address": "후쿠시마현(福島県) 고리야마시(福島県市)",
       "title": "토호쿠 신칸센, 후쿠시마",
-      "video_id": "qVdWK-gidrc",
+      "video_id": "d50-zK9ji9I",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "fukushima",
@@ -1791,7 +1791,7 @@
   {
       "address": "도쿄도(東京都) 미나토구(港区)",
       "title": "레인보우 브릿지, 도요스, 후지산",
-      "video_id": "CRmEvy7n3kc",
+      "video_id": "nnq_czu3BQ0",
       "video_mode": "beach",
       "night_view": true,
       "weather_city": "tokyo",
@@ -1832,7 +1832,7 @@
   {
       "address": "도쿄도(東京都) 스미다구(墨田区)",
       "title": "도쿄 스카이트리(東京スカイツリー) 1",
-      "video_id": "o5uUqjvgPKs",
+      "video_id": "XwvmLUtlXu0",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "tokyo",
@@ -2906,10 +2906,23 @@
   },
   {
       "address": "나가노현(長野県)",
-      "title": "스와호 신규 스와 분지, 나가노",
-      "video_id": "wwgKB-X-bTU",
+      "title": "스와호 신규 스와 분지 1, 나가노",
+      "video_id": "SIuyDCa942c",
       "video_mode": "nature",
-      "night_view": true,
+      "night_view": false,
+      "weather_city": "飯田市",
+      "video_category": "Japan",
+      "time_zone": "Asia/Tokyo",
+      "map": "map_nagano.png",
+      "desc": "나가노현 스와호와 야츠가타케 산맥을 실시간으로 보여주는 카메라로, 스와호는 나가노현 스와 분지에 위치한 아름다운 호수로 주변 풍경과 산맥의 경치를 감상할 수 있다. 스와호는 나가노현에서 가장 큰 자연호수로 호수 주변으로 온천, 공원, 산책로 등이 잘 조성되어 있어 사계절 내내 다양한 활동을 즐길 수 있다. 보트, 낚시 등의 다양한 야외활동을 할 수 있으며, 겨울철에는 호수의 일부가 얼어붙어 얼음 위를 걷거나 얼음 낚시를 할 수 있다.",
+      "coords": "36.21240564910712, 137.84213833756357"
+  },
+  {
+      "address": "나가노현(長野県)",
+      "title": "스와호 신규 스와 분지 2, 나가노",
+      "video_id": "5BZFTGQEXJ4",
+      "video_mode": "nature",
+      "night_view": false,
       "weather_city": "飯田市",
       "video_category": "Japan",
       "time_zone": "Asia/Tokyo",
@@ -3617,7 +3630,7 @@
   {
       "address": "야마구치현(山口県)",
       "title": "나가토 유모토 온천, 야마구치",
-      "video_id": "TqlFXFo1FNk",
+      "video_id": "T_XtGEF5rKU",
       "video_mode": "landmark",
       "night_view": true,
       "weather_city": "fukuoka",
@@ -3631,9 +3644,9 @@
   {
       "address": "야마구치현(山口県)",
       "title": "시모노세키시/칸몬다리, 야마구치",
-      "video_id": "OnY6CqwU3RI",
+      "video_id": "lZxYr8TaXeY",
       "video_mode": "beach",
-      "night_view": false,
+      "night_view": true,
       "weather_city": "fukuoka",
       "video_category": "Japan",
       "time_zone": "Asia/Tokyo",
@@ -3838,6 +3851,17 @@
       "map": "map_tokyo.png",
       "desc": "",
       "coords": "34.726905714900354, 135.56437589400696"
+  },
+  {
+      "address": "도치기현(栃木県) 닛코시(日光市)",
+      "title": "오쿠 닛코 진료소, 추젠지호, 도치기",
+      "video_id": "Xwsir4Mxgl8",
+      "video_mode": "nature",
+      "night_view": false,
+      "weather_city": "日光市",
+      "video_category": "Japan",
+      "time_zone": "Asia/Tokyo",
+      "coords": "36.72486342253928, 139.63023299408857"
   },
   {
       "address": "도치기현(栃木県) 닛코시(日光市)",
@@ -4242,7 +4266,7 @@
   {
       "address": "오키나와(沖縄県) 구니가미(国頭)군",
       "title": "카리유시 프라이빗 비치, 오키나와",
-      "video_id": "sBV1z0zY6Yo",
+      "video_id": "PS4xkN2uakQ",
       "video_mode": "beach",
       "night_view": true,
       "weather_city": "Okinawa",
@@ -4418,7 +4442,7 @@
   {
       "address": "돗토리현(鳥取県)",
       "title": "다이센 산, 돗토리",
-      "video_id": "XzeLC8iWCvs",
+      "video_id": "AhU1gnE-BLU",
       "video_mode": "mountain",
       "night_view": false,
       "weather_city": "tottori",
@@ -4606,8 +4630,8 @@
   },
   {
       "address": "하와이",
-      "title": "마우나케아 산, 하와이",
-      "video_id": "4cWmkG6-Ops",
+      "title": "MaunaKea Meteor shower, Hawaii",
+      "video_id": "rETzjF1SrYU",
       "video_mode": "mountain",
       "night_view": true,
       "weather_city": "hawaii",
@@ -4861,7 +4885,7 @@
   {
       "address": "이시카와현(石川県) 하쿠이시(羽咋市)",
       "title": "치리하마 해변 1, 이시카와",
-      "video_id": "MGHTrE0x5l4",
+      "video_id": "6dJ7MAwtUmI",
       "video_mode": "beach",
       "night_view": false,
       "weather_city": "羽咋市",
@@ -5119,14 +5143,80 @@
   },
   {
       "address": "America",
-      "title": "Cove Leland Fishtown, America",
+      "title": "Vilano Pier, America",
+      "video_id": "mYbn_umeenk",
+      "video_mode": "beach",
+      "night_view": true,
+      "weather_city": "St. Augustine",
+      "video_category": "World",
+      "time_zone": "America/New_York",
+      "coords": "29.8978, -81.3125"
+  },
+  {
+      "address": "America",
+      "title": "Bridge of Lions, America",
+      "video_id": "fc9Y2XIQnM4",
+      "video_mode": "beach",
+      "night_view": true,
+      "weather_city": "St. Augustine",
+      "video_category": "World",
+      "time_zone": "America/New_York",
+      "coords": "29.8978, -81.3125"
+  },
+  {
+      "address": "America",
+      "title": "Vilano Boat Ramp, America",
+      "video_id": "S8afSTXKkdw",
+      "video_mode": "beach",
+      "night_view": true,
+      "weather_city": "St. Augustine",
+      "video_category": "World",
+      "time_zone": "America/New_York",
+      "coords": "29.8978, -81.3125"
+  },
+  {
+      "address": "America",
+      "title": "St. Augustine Lighthouse, America",
+      "video_id": "dlLz-hG_hAk",
+      "video_mode": "beach",
+      "night_view": true,
+      "weather_city": "St. Augustine",
+      "video_category": "World",
+      "time_zone": "America/New_York",
+      "coords": "29.8978, -81.3125"
+  },
+  {
+      "address": "America",
+      "title": "Castillo de San Marcos, America",
+      "video_id": "FyGb2TZB344",
+      "video_mode": "beach",
+      "night_view": true,
+      "weather_city": "St. Augustine",
+      "video_category": "World",
+      "time_zone": "America/New_York",
+      "coords": "29.8978, -81.3125"
+  },
+  {
+      "address": "America",
+      "title": "Mirror Lake, America",
       "video_id": "s7sY1waeOf4",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "43.08559379187875, -79.06545544802592",
       "video_category": "World",
-      "time_zone": "America/Toronto",
+      "time_zone": "America/New_York",
       "coords": "43.08559379187875, -79.06545544802592"
+  },
+  {
+      "address": "America",
+      "title": "Cove Leland Fishtown, America",
+      "video_id": "jB4Iwn2GJS4",
+      "video_mode": "beach",
+      "night_view": true,
+      "weather_city": "44.2939, -73.9856",
+      "video_category": "World",
+      "time_zone": "America/Toronto",
+      "coords": "44.2939, -73.9856"
   },
   {
       "address": "America",
@@ -5198,6 +5288,17 @@
       "address": "Canada",
       "title": "Niagara Falls 1, Canada",
       "video_id": "K3bA1a7-6M8",
+      "video_mode": "city",
+      "night_view": false,
+      "weather_city": "43.08559379187875, -79.06545544802592",
+      "video_category": "World",
+      "time_zone": "America/Toronto",
+      "coords": "43.08559379187875, -79.06545544802592"
+  },
+  {
+      "address": "Canada",
+      "title": "Niagara Falls 2, Canada",
+      "video_id": "LUwWtVqA4tY",
       "video_mode": "city",
       "night_view": false,
       "weather_city": "43.08559379187875, -79.06545544802592",
@@ -5287,7 +5388,7 @@
       "title": "Mission Mountains, America",
       "video_id": "owCBxykcWDo",
       "video_mode": "mountain",
-      "night_view": true,
+      "night_view": false,
       "weather_city": "47.38248873440783, -113.91826868354993",
       "video_category": "World",
       "time_zone": "America/Los_Angeles",
@@ -5519,7 +5620,7 @@
   {
       "address": "Llandudno",
       "title": "Llandudno North Parade, England",
-      "video_id": "9RY13QP6p-0",
+      "video_id": "eF5cc4NlziE",
       "video_mode": "beach",
       "night_view": true,
       "weather_city": "Glanwydden",
@@ -6007,6 +6108,17 @@
   },
   {
       "address": "Spain",
+      "title": "Port d'Andratx, Spain",
+      "video_id": "irVJ0o6O_Xw",
+      "video_mode": "beach",
+      "night_view": true,
+      "weather_city": "Port d'Andratx, Spain",
+      "video_category": "World",
+      "time_zone": "Europe/Madrid",
+      "coords": "39.5450, 2.3828"
+  },
+  {
+      "address": "Spain",
       "title": "Albir Beach, Spain",
       "video_id": "hvsK8Fvz4rE",
       "video_mode": "beach",
@@ -6393,7 +6505,7 @@
   {
       "address": "Australia",
       "title": "Sydney Harbour, Australia",
-      "video_id": "IWeVPhVr8IQ",
+      "video_id": "IgHWzITwtns",
       "night_view": true,
       "video_mode": "beach",
       "weather_city": "Sydney",
@@ -6552,8 +6664,30 @@
   },
   {
       "address": "Portugal",
+      "title": "Ponta do Sol, Portugal",
+      "video_id": "wrz_ksmFRj8",
+      "night_view": true,
+      "video_mode": "city",
+      "weather_city": "Ponta do Sol, Portugal",
+      "video_category": "World",
+      "time_zone": "Atlantic/Madeira",
+      "coords": "32.6833, -17.1000"
+  },
+  {
+      "address": "Portugal",
+      "title": "Ribeira Brava, Portugal",
+      "video_id": "0NkS949XOqY",
+      "night_view": true,
+      "video_mode": "city",
+      "weather_city": "Ribeira Brava, Portugal",
+      "video_category": "World",
+      "time_zone": "Atlantic/Madeira",
+      "coords": "32.6500, -17.0667"
+  },
+  {
+      "address": "Portugal",
       "title": "Lisbon, Portugal",
-      "video_id": "ctYalRx7kY4",
+      "video_id": "kIgfYVRE6JY",
       "night_view": true,
       "video_mode": "city",
       "weather_city": "Lisbon, Portugal",
@@ -6617,7 +6751,18 @@
       "video_category": "World",
       "time_zone": "America/Grand_Turk",
       "coords": "21.783532517344984, -72.1936815692882"
-  },
+  },  
+  {
+    "address": "Macau",
+    "title": "Largo do Senado",
+    "video_id": "ctYalRx7kY4",
+    "night_view": true,
+    "video_mode": "landmark",
+    "weather_city": "Macau",
+    "video_category": "World",
+    "time_zone": "Asia/Macau",
+    "coords": "22.1987, 113.5439"
+},
   {
       "address": "Taiwan",
       "title": "호두산 친환경 공원, 대만",
@@ -6974,7 +7119,7 @@
   {
       "address": "부산시 해운대구",
       "title": "속초 해수욕장, 속초",
-      "video_id": "qxQX25hG6-c",
+      "video_id": "pT_dKguQjRA",
       "video_mode": "beach",
       "night_view": true,
       "weather_city": "Goseong-gun",
@@ -6985,7 +7130,7 @@
   {
       "address": "부산시 해운대구",
       "title": "해운대, 광안대교, 부산",
-      "video_id": "9Unvqwgk8z8",
+      "video_id": "qHJKWkXfBxs",
       "video_mode": "beach",
       "night_view": true,
       "weather_city": "busan",
@@ -7008,7 +7153,7 @@
   {
       "address": "부산시 해운대구",
       "title": "송정해수욕장, 부산",
-      "video_id": "ksUDhGDMWbg",
+      "video_id": "urb9PT3Zq4w",
       "video_mode": "beach",
       "night_view": true,
       "weather_city": "busan",
@@ -7097,7 +7242,7 @@
   {
       "address": "서울시 중구",
       "title": "DDP 동대문 디자인 플라자, 서울",
-      "video_id": "FjuXWB7iFSQ",
+      "video_id": "q6L90G9Ae84",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "seoul",
@@ -7108,7 +7253,7 @@
   {
       "address": "서울시 중구",
       "title": "서울역, 서울",
-      "video_id": "Y9Scp1XXvoc",
+      "video_id": "jBLIJgvDuL0",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "seoul",
