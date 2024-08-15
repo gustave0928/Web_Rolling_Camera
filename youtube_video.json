@@ -29,7 +29,7 @@
   {
       "address": "도쿠시마현(徳島県) 도쿠시마시(徳島市)",
       "title": "미야마산, 도쿠시마",
-      "video_id": "kaKiOpObBU0",
+      "video_id": "KgyK1RrI0Qs",
       "video_mode": "mountain",
       "night_view": true,
       "weather_city": "Tokushima-shi",
@@ -1739,7 +1739,7 @@
   {
       "address": "후쿠시마현(福島県) 고리야마시(福島県市)",
       "title": "토호쿠 신칸센, 후쿠시마",
-      "video_id": "d50-zK9ji9I",
+      "video_id": "YeZZfP0jCrY",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "fukushima",
@@ -1789,9 +1789,22 @@
       "coords": "26.966348982351988, 142.0916898313757"
   },
   {
+      "address": "도쿄도(東京都) 에도가와구",
+      "title": "후나보리 가도, 수도 중앙 고속도로",
+      "video_id": "59I5ik9hA5A",
+      "video_mode": "city",
+      "night_view": true,
+      "weather_city": "tokyo",
+      "video_category": "Japan",
+      "time_zone": "Asia/Tokyo",
+      "map": "map_tokyo.png",
+      "desc": "",
+      "coords": "35.431998696172656, 139.6376310445632"
+  },
+  {
       "address": "도쿄도(東京都) 미나토구(港区)",
       "title": "레인보우 브릿지, 도요스, 후지산",
-      "video_id": "nnq_czu3BQ0",
+      "video_id": "ILV8zZTU7sU",
       "video_mode": "beach",
       "night_view": true,
       "weather_city": "tokyo",
@@ -2092,7 +2105,7 @@
   {
       "address": "도쿄도(東京都) 스기나미구",
       "title": "리쇼코세이카이 후몬칸, 도쿄",
-      "video_id": "iM_yyHkbNJY",
+      "video_id": "0Ij3cYjhTds",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "tokyo",
@@ -2118,7 +2131,7 @@
   {
       "address": "도쿄도(東京都) 아다치구",
       "title": "다케노쓰카역, 도쿄",
-      "video_id": "fhsC4ae2VF4",
+      "video_id": "Ll5FHC2NvaE",
       "video_mode": "city",
       "night_view": true,
       "weather_city": "tokyo",
@@ -2907,7 +2920,7 @@
   {
       "address": "나가노현(長野県)",
       "title": "스와호 신규 스와 분지 1, 나가노",
-      "video_id": "SIuyDCa942c",
+      "video_id": "lfhL8Q8grGA",
       "video_mode": "nature",
       "night_view": false,
       "weather_city": "飯田市",
@@ -2920,7 +2933,7 @@
   {
       "address": "나가노현(長野県)",
       "title": "스와호 신규 스와 분지 2, 나가노",
-      "video_id": "5BZFTGQEXJ4",
+      "video_id": "tDqCNkilEeE",
       "video_mode": "nature",
       "night_view": false,
       "weather_city": "飯田市",
@@ -4287,6 +4300,17 @@
   },
   {
       "address": "니가타현(新潟県) 니가타시(新潟市) 주오구(中央区)",
+      "title": "반다이 시티 교차로, 니가타",
+      "video_id": "dIDyg-kc9o0",
+      "video_mode": "true",
+      "night_view": false,
+      "weather_city": "37.89199015892668, 139.05027201934757",
+      "video_category": "Japan",
+      "time_zone": "Asia/Tokyo",
+      "coords": "37.89199015892668, 139.05027201934757"
+  },
+  {
+      "address": "니가타현(新潟県) 니가타시(新潟市) 주오구(中央区)",
       "title": "반다이바시 다리, 니가타",
       "video_id": "pMbRfaiC8pc",
       "video_mode": "city",
@@ -5017,7 +5041,7 @@
       "video_category": "Japan",
       "time_zone": "Asia/Tokyo",
       "coords": "37.83841985481722, 139.23706217731467"
-  },
+  },  
   {
       "address": "아키타현(秋田県) 아키타시(秋田市)",
       "title": "한풍산 회전 전망대, 아키타",
@@ -6076,7 +6100,7 @@
       "title": "Zandvoort station, Netherlands",
       "video_id": "rhIHy6eajR0",
       "video_mode": "city",
-      "night_view": true,
+      "night_view": false,
       "weather_city": "Zandvoort",
       "video_category": "World",
       "time_zone": "Europe/Amsterdam",
