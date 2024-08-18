@@ -29,7 +29,7 @@
     {
         "address": "도쿠시마현(徳島県) 도쿠시마시(徳島市)",
         "title": "미야마산, 도쿠시마",
-        "video_id": "fCor3g9MvcI",
+        "video_id": "v-8laHZupEk",
         "video_mode": "mountain",
         "night_view": true,
         "weather_city": "Tokushima-shi",
@@ -249,7 +249,7 @@
     {
         "address": "홋카이도(北海道) 하코다테시(函館市)",
         "title": "하코다테역・하코다테만",
-        "video_id": "xetgoz8u6BI",
+        "video_id": "g6G2ye68QnM",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "函館市",
@@ -262,7 +262,7 @@
     {
         "address": "홋카이도(北海道) 하코다테시(函館市)",
         "title": "하코다테역 앞",
-        "video_id": "yKzdVZOASuY",
+        "video_id": "aS-LRCLptWU",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "函館市",
@@ -705,7 +705,7 @@
     {
         "address": "가나가와현(神奈川県) 요코하마(横浜市)",
         "title": "미나토미라이/기샤미치 1, 요코하마",
-        "video_id": "XMvFwxoCs98",
+        "video_id": "0JKzTkfyN0U",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "yokohama",
@@ -718,7 +718,7 @@
     {
         "address": "가나가와현(神奈川県) 요코하마(横浜市)",
         "title": "미나토미라이/기샤미치 2, 요코하마",
-        "video_id": "c1gx0jh5g2k",
+        "video_id": "nUIDQMqsSsI",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "yokohama",
@@ -1139,7 +1139,7 @@
     {
         "address": "아이치현(愛知県) 나고야시(名古屋市) 나카무라(中村区)",
         "title": "JR 나고야역, 아이치",
-        "video_id": "3ntm6V378_Q",
+        "video_id": "5Gi_L90rt2k",
         "video_mode": "city",
         "night_view": false,
         "weather_city": "nagoya-shi",
@@ -1739,7 +1739,7 @@
     {
         "address": "후쿠시마현(福島県) 고리야마시(福島県市)",
         "title": "토호쿠 신칸센, 후쿠시마",
-        "video_id": "iWpaCkYKPwQ",
+        "video_id": "WpOd4K9d37o",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "fukushima",
@@ -1804,7 +1804,7 @@
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
         "title": "레인보우 브릿지, 도요스, 후지산",
-        "video_id": "ILV8zZTU7sU",
+        "video_id": "xrCK9wpi1Fw",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "tokyo",
@@ -1845,7 +1845,7 @@
     {
         "address": "도쿄도(東京都) 스미다구(墨田区)",
         "title": "도쿄 스카이트리(東京スカイツリー) 1",
-        "video_id": "smNdrbAC2LY",
+        "video_id": "vdfSNMobr2w",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2423,7 +2423,7 @@
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
         "title": "신바시, 도쿄",
-        "video_id": "R_usu0G9gHU",
+        "video_id": "i6DVIF77bIg",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2907,7 +2907,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 1, 나가노",
-        "video_id": "lgK-TO1tc7o",
+        "video_id": "PpBmAlA5jLY",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -2920,7 +2920,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 2, 나가노",
-        "video_id": "htBpvdUEgFk",
+        "video_id": "YuqG03psHJ0",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -3387,19 +3387,6 @@
     },
     {
         "address": "군마(群馬県) 아즈마(吾妻)군",
-        "title": "쿠사츠산 고센 경내, 군마",
-        "video_id": "nd5wYYZTGWE",
-        "video_mode": "landmark",
-        "night_view": true,
-        "weather_city": "gunma",
-        "video_category": "Japan",
-        "time_zone": "Asia/Tokyo",
-        "map": "map_gunma.png",
-        "desc": "군마현 쿠사츠초 고센지에 설치된 카메라로, 고센지 경내를 볼 수 있다. 고센지는 군마현 쿠사츠산에 위치한 불교 사찰로 쿠사츠 온천 마을의 높은 지대에 위치하여, 사찰에서 내려다보는 전망이 매우 아름답다.",
-        "coords": "36.46747671532923, 138.93312432512164"
-    },
-    {
-        "address": "군마(群馬県) 아즈마(吾妻)군",
         "title": "쿠사츠온천 지장 원천 광장, 군마",
         "video_id": "8FUL47uSV1U",
         "video_mode": "landmark",
@@ -3644,7 +3631,7 @@
     {
         "address": "야마구치현(山口県)",
         "title": "나가토 유모토 온천, 야마구치",
-        "video_id": "et8YpkDekx0",
+        "video_id": "tAFDfLLv2gE",
         "video_mode": "landmark",
         "night_view": true,
         "weather_city": "fukuoka",
@@ -4191,7 +4178,7 @@
     {
         "address": "야마구치현(山口県) 아부군(阿武郡)",
         "title": "아부캠프필드 키요가하마 해변, 야마구치",
-        "video_id": "gcvx3YgHRdY",
+        "video_id": "33-e5btmpGs",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "yamaguchi",
@@ -4456,7 +4443,7 @@
     {
         "address": "돗토리현(鳥取県)",
         "title": "다이센 산, 돗토리",
-        "video_id": "AhU1gnE-BLU",
+        "video_id": "ptC6N_Yv3yE",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "tottori",
@@ -6449,6 +6436,28 @@
         "video_category": "World",
         "time_zone": "Europe/Oslo",
         "coords": "62.12090834611629, 7.21401753482484"
+    },
+    {
+        "address": "Iceland",
+        "title": "Sandhóll, Iceland",
+        "video_id": "utN3ai6vNPY",
+        "night_view": false,
+        "video_mode": "mountain",
+        "weather_city": "65.16300245633357, -14.769871616246876",
+        "video_category": "World",
+        "time_zone": "Atlantic/Reykjavik",
+        "coords": "65.16300245633357, -14.769871616246876"
+    },
+    {
+        "address": "Iceland",
+        "title": "Svartsengi Power Plant, Iceland",
+        "video_id": "qF_Hfb-ObLQ",
+        "night_view": false,
+        "video_mode": "mountain",
+        "weather_city": "63.87840194577784, -22.432730542394374",
+        "video_category": "World",
+        "time_zone": "Atlantic/Reykjavik",
+        "coords": "63.87840194577784, -22.432730542394374"
     },
     {
         "address": "Greenland",
