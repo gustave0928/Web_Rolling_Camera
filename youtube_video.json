@@ -29,7 +29,7 @@
     {
         "address": "도쿠시마현(徳島県) 도쿠시마시(徳島市)",
         "title": "미야마산, 도쿠시마",
-        "video_id": "v-8laHZupEk",
+        "video_id": "lh_tORi_LKE",
         "video_mode": "mountain",
         "night_view": true,
         "weather_city": "Tokushima-shi",
@@ -718,7 +718,7 @@
     {
         "address": "가나가와현(神奈川県) 요코하마(横浜市)",
         "title": "미나토미라이/기샤미치 2, 요코하마",
-        "video_id": "nUIDQMqsSsI",
+        "video_id": "KN3F7JQkge8",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "yokohama",
@@ -1739,7 +1739,7 @@
     {
         "address": "후쿠시마현(福島県) 고리야마시(福島県市)",
         "title": "토호쿠 신칸센, 후쿠시마",
-        "video_id": "WpOd4K9d37o",
+        "video_id": "bE1tAeJBmHY",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "fukushima",
@@ -1804,7 +1804,7 @@
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
         "title": "레인보우 브릿지, 도요스, 후지산",
-        "video_id": "xrCK9wpi1Fw",
+        "video_id": "H2wknwgL5is",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "tokyo",
@@ -1857,8 +1857,8 @@
     },
     {
         "address": "도쿄도(東京都) 다이토구",
-        "title": "🗼 아사쿠사바시역, 도쿄 🌃",
-        "video_id": "DF_uVKUcW_s",
+        "title": "아사쿠사바시역, 도쿄",
+        "video_id": "86tjhu86hzg",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -1866,7 +1866,8 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_tokyo.png",
         "desc": "도쿄도 다이토구 야나기바시의 JR 아사쿠사바시역 부근에 설치된 카메라로, JR 아사쿠사바시역・아사쿠사바시역 앞 사거리・오차노미즈 방면을 볼 수 있다.",
-        "coords": "35.431998696172656, 139.6376310445632"
+        "coords": "35.431998696172656, 139.6376310445632",
+        "channel": "japanwindowscapes"
     },
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
@@ -2907,7 +2908,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 1, 나가노",
-        "video_id": "PpBmAlA5jLY",
+        "video_id": "ROkMj2Jumq8",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -2920,7 +2921,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 2, 나가노",
-        "video_id": "YuqG03psHJ0",
+        "video_id": "b66OeP7eTSk",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -3631,7 +3632,7 @@
     {
         "address": "야마구치현(山口県)",
         "title": "나가토 유모토 온천, 야마구치",
-        "video_id": "tAFDfLLv2gE",
+        "video_id": "x1dHuTSqVeQ",
         "video_mode": "landmark",
         "night_view": true,
         "weather_city": "fukuoka",
@@ -3648,20 +3649,6 @@
         "video_id": "lZxYr8TaXeY",
         "video_mode": "beach",
         "night_view": true,
-        "weather_city": "fukuoka",
-        "video_category": "Japan",
-        "time_zone": "Asia/Tokyo",
-        "channel": "@tysNEWSDIG",
-        "map": "map_tokyo.png",
-        "desc": "",
-        "coords": "33.61189102474941, 130.62986420864755"
-    },
-    {
-        "address": "야마구치현(山口県)",
-        "title": "야마구치 시내",
-        "video_id": "I3VPW6b0j2g",
-        "video_mode": "mountain",
-        "night_view": false,
         "weather_city": "fukuoka",
         "video_category": "Japan",
         "time_zone": "Asia/Tokyo",
@@ -4420,14 +4407,27 @@
     },
     {
         "address": "야마나시현(山梨県)",
-        "title": "야마나가코, 야마나시",
-        "video_id": "0xCsFnsV06I",
+        "title": "야마나가코 1, 야마나시",
+        "video_id": "XaWP_7wXx4E",
         "video_mode": "fuji",
         "night_view": false,
         "weather_city": "35.47967445052602, 138.61278721998227",
         "video_category": "Japan",
         "time_zone": "Asia/Tokyo",
-        "coords": "35.47967445052602, 138.61278721998227"
+        "coords": "35.47967445052602, 138.61278721998227",
+        "channel": "catv7273"
+    },
+    {
+        "address": "야마나시현(山梨県)",
+        "title": "야마나가코 2, 야마나시",
+        "video_id": "ncvHoKrFmC0",
+        "video_mode": "fuji",
+        "night_view": false,
+        "weather_city": "35.47967445052602, 138.61278721998227",
+        "video_category": "Japan",
+        "time_zone": "Asia/Tokyo",
+        "coords": "35.47967445052602, 138.61278721998227",
+        "channel": "KawaguchikoTV"
     },
     {
         "address": "야마나시현(山梨県) 후지카와구치코마치(富士河口湖町)",
@@ -4886,7 +4886,7 @@
     {
         "address": "이시카와현(石川県) 하쿠이시(羽咋市)",
         "title": "치리하마 해변 1, 이시카와",
-        "video_id": "pzCXp2aM0go",
+        "video_id": "V8egcGgg_L4",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "羽咋市",
