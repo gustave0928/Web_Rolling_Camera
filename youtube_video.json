@@ -2,7 +2,7 @@
     {
         "address": "미야자키현",
         "title": "모로츠카촌(諸塚村), 미야자키",
-        "video_id": "bl-qkpI9uWU",
+        "video_id": "-5ZG0Zs9NXg",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "Miyazaki-shi",
@@ -29,7 +29,7 @@
     {
         "address": "도쿠시마현(徳島県) 도쿠시마시(徳島市)",
         "title": "미야마산, 도쿠시마",
-        "video_id": "8OvZUkPpPgw",
+        "video_id": "JAmP62gy2Ms",
         "video_mode": "mountain",
         "night_view": true,
         "weather_city": "Tokushima-shi",
@@ -55,7 +55,7 @@
     {
         "address": "시마네현(島根県) 야스기시(安来市)",
         "title": "아다치 미술관, 시마네",
-        "video_id": "NTUA_3_D29I",
+        "video_id": "4if0vpGgM94",
         "video_mode": "landmark",
         "night_view": false,
         "weather_city": "Yasugi",
@@ -249,7 +249,7 @@
     {
         "address": "홋카이도(北海道) 하코다테시(函館市)",
         "title": "하코다테역・하코다테만",
-        "video_id": "AI6rOAm314k",
+        "video_id": "zlHk3ss6gxw",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "函館市",
@@ -262,7 +262,7 @@
     {
         "address": "홋카이도(北海道) 하코다테시(函館市)",
         "title": "하코다테역 앞",
-        "video_id": "b8xY0VAnBxc",
+        "video_id": "s4XJdhYO2vo",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "函館市",
@@ -353,7 +353,7 @@
     {
         "address": "홋카이도(北海道) 삿포로시(札幌市)",
         "title": "오도리공원 삿포로 TV탑 2, 홋카이도 ",
-        "video_id": "BFTlBBMuxvc",
+        "video_id": "xoBMhPIqBtE",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "札幌市",
@@ -679,7 +679,7 @@
     {
         "address": "홋카이도 아부타(虻田)군",
         "title": "니세코 빌리지, 홋카이도",
-        "video_id": "_kCMMXeNTSM",
+        "video_id": "FX0w88UP6RE",
         "video_mode": "landmark",
         "night_view": false,
         "weather_city": "札幌市",
@@ -705,7 +705,7 @@
     {
         "address": "가나가와현(神奈川県) 요코하마(横浜市)",
         "title": "미나토미라이/기샤미치 1, 요코하마",
-        "video_id": "qs7JDOBsVuU",
+        "video_id": "XtAEIAY0ylU",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "yokohama",
@@ -718,7 +718,7 @@
     {
         "address": "가나가와현(神奈川県) 요코하마(横浜市)",
         "title": "미나토미라이/기샤미치 2, 요코하마",
-        "video_id": "LSsu7R-z9Io",
+        "video_id": "OPknc4t1Muo",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "yokohama",
@@ -830,21 +830,21 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_ganagawa_enoshima.png",
         "desc": "가나가와현 가마쿠라시 이나무라가사키에 있는 「3rd HOUSE 이나무라가사키」에 설치된 라이브카메라. 이나무라가사키·가마쿠라 해변 공원 이나무라가사키 지구·국도 134호·이나무라가사키역(에노시마 전철) 부근을 볼 수 있다.",
-        "channel": "shonan-live",
+        "channel": "japan-livecam",
         "coords": "35.431998696172656, 139.6376310445632"
     },
     {
         "address": "가나가와현(神奈川県) 가마쿠라시(鎌倉市)",
-        "title": "3rd HOUSE 이나무라가사키 서관옥상, 가나가와",
-        "video_id": "2mvL9Z55XKk",
+        "title": "Shonan Ocean House 옥상 4, 시치리가하마역 부근, 가나가와",
+        "video_id": "DaLL92GAKEI",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "Fujisawa",
         "video_category": "Japan",
         "time_zone": "Asia/Tokyo",
         "map": "map_ganagawa_enoshima.png",
-        "desc": "가나가와현 가마쿠라시 이나무라가사키에 있는 「3rd HOUSE 이나무라가사키」에 설치된 라이브카메라. 시치리가하마 해변, 사가미만, 국도 134호선, 에노시마(에노시마), 후지산을 볼 수 있다.",
-        "channel": "shonan_live",
+        "desc": "가나가와현 가마쿠라시 시치리가하마 부근에 있는 「Shonan Ocean House」 옥상에 설치된 라이브카메라. 시치리가하마, 사가미 만, 국도 134호선, 시치리가하마 해안 주차장, 에노시마 전철 에노시마 전철선, 가나가와 현립 시치리가하마 고등학교를 볼 수 있다.",
+        "channel": "japan-livecam",
         "coords": "35.431998696172656, 139.6376310445632"
     },
     {
@@ -858,7 +858,7 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_ganagawa_enoshima.png",
         "desc": "가나가와현 가마쿠라시 시치리가하마 부근에 있는 「Shonan Ocean House」 옥상에 설치된 라이브카메라. 시치리가하마, 사가미 만, 국도 134호선, 시치리가하마 해안 주차장, 에노시마 전철 에노시마 전철선, 가나가와 현립 시치리가하마 고등학교를 볼 수 있다.",
-        "channel": "shonan-live",
+        "channel": "japan-livecam",
         "coords": "35.431998696172656, 139.6376310445632"
     },
     {
@@ -872,7 +872,7 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_ganagawa_enoshima.png",
         "desc": "가나가와현 가마쿠라시 시치리가하마 부근에 있는 「Shonan Ocean House」 옥상에 설치된 라이브카메라. 시치리가하마, 사가미 만, 국도 134호선, 시치리가하마 해안 주차장을 볼 수 있다.",
-        "channel": "shonan-live",
+        "channel": "japan-livecam",
         "coords": "35.431998696172656, 139.6376310445632"
     },
     {
@@ -886,7 +886,7 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_ganagawa_enoshima.png",
         "desc": "가나가와현 가마쿠라시 시치리가하마 부근에 있는 「Shonan Ocean House」 옥상에 설치된 라이브카메라. 에노시마, 후지산, 시치리가하마를 볼 수 있다.",
-        "channel": "shonan-live",
+        "channel": "japan-livecam",
         "coords": "35.431998696172656, 139.6376310445632"
     },
     {
@@ -918,7 +918,7 @@
     {
         "address": "가나가와현(神奈川県) 가마쿠라시(鎌倉市)",
         "title": "가마쿠라 코마치 거리 1, 가나가와",
-        "video_id": "0Wneqct8LAg",
+        "video_id": "VOix1wTjheQ",
         "video_mode": "landmark",
         "night_view": true,
         "weather_city": "kamakura",
@@ -1102,7 +1102,7 @@
     {
         "address": "아이치현(愛知県) 다케토요조(武豊町)",
         "title": "신게츠사이 경내, 아이치",
-        "video_id": "Xtg5E434fFU",
+        "video_id": "NsohJx12WCE",
         "video_mode": "landmark",
         "night_view": false,
         "weather_city": "Taketoyo",
@@ -1115,7 +1115,7 @@
     {
         "address": "아이치현(愛知県) 다케토요조(武豊町)",
         "title": "신게츠사이 관음영장의 매화와 벚꽃, 아이치",
-        "video_id": "XB18jz45-2g",
+        "video_id": "TU1bjHc4UqM",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "Taketoyo",
@@ -1128,7 +1128,7 @@
     {
         "address": "아이치현(愛知県) 나고야시(名古屋市) 나카무라(中村区)",
         "title": "사사시마, 아이치",
-        "video_id": "9etGgTqEA4I",
+        "video_id": "kIW2sUh4sA4",
         "video_mode": "city",
         "night_view": false,
         "weather_city": "nagoya-shi",
@@ -1219,7 +1219,7 @@
     {
         "address": "시즈오카현(静岡県)",
         "title": "아카이시 산, 시즈오카",
-        "video_id": "Bv4Q8uD8-zs",
+        "video_id": "nAEsAl4Yebc",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "shizuoka-shi",
@@ -1227,7 +1227,8 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_shizuoka_akaisan.png",
         "desc": "시즈오카현 시즈오카시 아오이구의 우시쿠 고개(사와라지마 주변)에 설치된 라이브카메라로, 「아카이시산(남알프스)」를 볼 수 있다.",
-        "coords": "34.96686960585648, 138.4167044350856"
+        "coords": "34.96686960585648, 138.4167044350856",
+        "channel": "pr7172"
     },
     {
         "address": "시즈오카현(静岡県)",
@@ -1271,7 +1272,7 @@
     {
         "address": "시즈오카현(静岡県) 아타미시(熱海市)",
         "title": "아타미 미노야 호텔, 아타미시",
-        "video_id": "dICYXIHJ80s",
+        "video_id": "siz75ZD7I4Q",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "熱海市",
@@ -1403,7 +1404,7 @@
     {
         "address": "시즈오카현(静岡県) 이토",
         "title": "이토 컨트리 클럽, 시즈오카",
-        "video_id": "eg5aCF-oPGA",
+        "video_id": "A78xTAGCjTQ",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "ito-shi",
@@ -1687,19 +1688,6 @@
         "coords": "37.539355005005454, 140.84432193962994"
     },
     {
-        "address": "후쿠시마현(福島県) 고리야마시",
-        "title": "고리야마 시, 후쿠시마",
-        "video_id": "QB1YXDvdOQI",
-        "video_mode": "city",
-        "night_view": false,
-        "weather_city": "fukushima",
-        "video_category": "Japan",
-        "time_zone": "Asia/Tokyo",
-        "map": "map_fukushima.png",
-        "desc": "",
-        "coords": "37.539355005005454, 140.84432193962994"
-    },
-    {
         "address": "후쿠시마현(福島県)",
         "title": "아다치 타이라산, 후쿠시마",
         "video_id": "79KAGuh0wQs",
@@ -1741,7 +1729,7 @@
     {
         "address": "후쿠시마현(福島県) 고리야마시(福島県市)",
         "title": "토호쿠 신칸센, 후쿠시마",
-        "video_id": "BXRL8uQVPqc",
+        "video_id": "LOWnYcgqtMo",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "fukushima",
@@ -1791,22 +1779,9 @@
         "coords": "26.966348982351988, 142.0916898313757"
     },
     {
-        "address": "도쿄도(東京都) 에도가와구",
-        "title": "후나보리 가도, 수도 중앙 고속도로",
-        "video_id": "59I5ik9hA5A",
-        "video_mode": "city",
-        "night_view": true,
-        "weather_city": "tokyo",
-        "video_category": "Japan",
-        "time_zone": "Asia/Tokyo",
-        "map": "map_tokyo.png",
-        "desc": "",
-        "coords": "35.431998696172656, 139.6376310445632"
-    },
-    {
         "address": "도쿄도(東京都) 미나토구(港区)",
         "title": "레인보우 브릿지, 도요스, 후지산",
-        "video_id": "Z6uQrtVdK9U",
+        "video_id": "jaWlOPZR3Ss",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "tokyo",
@@ -1847,7 +1822,7 @@
     {
         "address": "도쿄도(東京都) 스미다구(墨田区)",
         "title": "도쿄 스카이트리(東京スカイツリー) 1",
-        "video_id": "sjcDDgJ-Sh4",
+        "video_id": "-YecTxB7I_A",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -1860,7 +1835,7 @@
     {
         "address": "도쿄도(東京都) 다이토구",
         "title": "아사쿠사바시역, 도쿄",
-        "video_id": "W9yEJxByaps",
+        "video_id": "Ai6OATJYqlk",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2239,7 +2214,7 @@
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
         "title": "도쿄 베이, 하마리큐 정원, 도쿄",
-        "video_id": "LmeapUBiUr4",
+        "video_id": "vVABNT5t5Sc",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2349,7 +2324,7 @@
     {
         "address": "도쿄도(東京都) 다이토구(台東区)",
         "title": "스미다가와, 도쿄",
-        "video_id": "XTdBupk-v4k",
+        "video_id": "QotB60C4FYc",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2357,7 +2332,8 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_tokyo.png",
         "desc": "도쿄도 다이토구 아사쿠사 인근에 설치된 카메라로, 스미다 강・고마가타 다리・료고쿠 다리・스미다강 불꽃놀이를 볼 수 있다.",
-        "coords": "35.431998696172656, 139.6376310445632"
+        "coords": "35.431998696172656, 139.6376310445632",
+        "channel": "asakusalivecam"
     },
     {
         "address": "도쿄도(東京都) 신주쿠구(新宿区)",
@@ -2401,7 +2377,7 @@
     {
         "address": "도쿄도(東京都) 다이토구(台東区)",
         "title": "스미다가와-스카이트리, 도쿄",
-        "video_id": "UPMtid0MRB8",
+        "video_id": "vVCy9BMV0o4",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2409,7 +2385,8 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_tokyo.png",
         "desc": "도쿄도 고토구 고치나카지마에 있는 야마타네 물류본부 후카가와 영업소 옥상에 설치된 카메라로, 스미다강・도쿄스카이트리를 볼 수 있다.",
-        "coords": "35.431998696172656, 139.6376310445632"
+        "coords": "35.431998696172656, 139.6376310445632",
+        "channel": "baynet_bousai"
     },
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
@@ -2911,7 +2888,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 1, 나가노",
-        "video_id": "51VMJUhb_mY",
+        "video_id": "kyjqKdM12a0",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -2924,7 +2901,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 2, 나가노",
-        "video_id": "wnGms-AuSLY",
+        "video_id": "R5MpwdHziKc",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -3143,7 +3120,7 @@
     {
         "address": "구마모토현(熊本県) 구마모토(熊本市)",
         "title": "구마모토역 시라카와구치",
-        "video_id": "weSMB4XGgKM",
+        "video_id": "NuesgN-rJBw",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "kumamoto-shi",
@@ -3236,7 +3213,7 @@
     {
         "address": "나가사키현(長崎県) 나가사키(長崎市)",
         "title": "이키섬 고토열도, 나가사키",
-        "video_id": "r4tw1uU6dMI",
+        "video_id": "ZoLov_-A-oM",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "nagasaki",
@@ -3257,12 +3234,13 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_nagasaki.png",
         "desc": "",
-        "coords": "32.98921015925382, 129.9448788126816"
+        "coords": "32.98921015925382, 129.9448788126816",
+        "channel": "user-cf8td5xl7p"
     },
     {
         "address": "나가사키현(長崎県) 나가사키(長崎市)",
-        "title": "이키섬 고노우라항, 나가사키",
-        "video_id": "W7w9uVffEaY",
+        "title": "이키섬 키요시하마, 나가사키",
+        "video_id": "QR7AW8_5Fvw",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "nagasaki",
@@ -3270,7 +3248,22 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_nagasaki.png",
         "desc": "",
-        "coords": "32.98921015925382, 129.9448788126816"
+        "coords": "32.98921015925382, 129.9448788126816",
+        "channel": "user-cf8td5xl7p"
+    },
+    {
+        "address": "나가사키현(長崎県) 나가사키(長崎市)",
+        "title": "이키섬 고노우라항, 나가사키",
+        "video_id": "BdUmwoc7KJY",
+        "video_mode": "beach",
+        "night_view": false,
+        "weather_city": "nagasaki",
+        "video_category": "Japan",
+        "time_zone": "Asia/Tokyo",
+        "map": "map_nagasaki.png",
+        "desc": "",
+        "coords": "32.98921015925382, 129.9448788126816",
+        "channel": "user-cf8td5xl7p"
     },
     {
         "address": "나가사키현(長崎県) 나가사키(長崎市)",
@@ -3662,7 +3655,7 @@
     {
         "address": "야마구치현(山口県)",
         "title": "나가토 유모토 온천, 야마구치",
-        "video_id": "KiZOcGlzPqk",
+        "video_id": "1SPQnlB36g8",
         "video_mode": "landmark",
         "night_view": true,
         "weather_city": "fukuoka",
@@ -3676,7 +3669,7 @@
     {
         "address": "가고시마현(鹿児島) 마쿠라자키(県枕市)",
         "title": "오션 호텔 이와토, 가고시마",
-        "video_id": "vaKOG2K-MVc",
+        "video_id": "VBUrYr4EMfE",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "kagoshima",
@@ -3703,7 +3696,7 @@
     {
         "address": "가고시마현(鹿児島) 미나미큐슈시(南九州市)",
         "title": "이와야 공원 캠프장, 가고시마",
-        "video_id": "qTH4hjd-pno",
+        "video_id": "0rqdhNTJ6UM",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "南九州市",
@@ -3716,7 +3709,7 @@
     {
         "address": "가고시마현(鹿児島) 미나미큐슈시(南九州市)",
         "title": "이와야 공원 내 시미즈마 절벽군, 가고시마",
-        "video_id": "F7GqBQd8X64",
+        "video_id": "wpC2jriqCTs",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "南九州市",
@@ -3969,8 +3962,8 @@
     },
     {
         "address": "야마나시현(山梨県) 미나미쓰루(南都留)군",
-        "title": "가와구치코～후지산 파노라마 로프웨이 전망대, 야마나시",
-        "video_id": "eU8A7QQOcso",
+        "title": "하코네 SORAKAZE, 야마나시",
+        "video_id": "wY19h-e-8hM",
         "video_mode": "fuji",
         "night_view": false,
         "weather_city": "Fujikawaguchiko",
@@ -3978,6 +3971,21 @@
         "time_zone": "Asia/Tokyo",
         "map": "map_tokyo.png",
         "desc": "",
+        "channel": "fujiyamanavi",
+        "coords": "35.61245400433366, 138.4623790382333"
+    },
+    {
+        "address": "야마나시현(山梨県) 미나미쓰루(南都留)군",
+        "title": "가와구치코～후지산 파노라마 로프웨이 전망대, 야마나시",
+        "video_id": "Sv9hcJ3k5h4",
+        "video_mode": "fuji",
+        "night_view": false,
+        "weather_city": "Fujikawaguchiko",
+        "video_category": "Japan",
+        "time_zone": "Asia/Tokyo",
+        "map": "map_tokyo.png",
+        "desc": "",
+        "channel": "fujiyamanavi",
         "coords": "35.61245400433366, 138.4623790382333"
     },
     {
@@ -4093,7 +4101,7 @@
     {
         "address": "에히메현(愛媛県) 마쓰야마시(松山市)",
         "title": "도고 온센 본관, 에히메",
-        "video_id": "FkEDlWrbhOw",
+        "video_id": "-DN3FzGDOdY",
         "video_mode": "landmark",
         "night_view": true,
         "weather_city": "matsuyama-shi",
@@ -4181,7 +4189,7 @@
     {
         "address": "야마구치현(山口県) 아부군(阿武郡)",
         "title": "아부캠프필드 키요가하마 해변, 야마구치",
-        "video_id": "33-e5btmpGs",
+        "video_id": "Vs2CRSt-keE",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "yamaguchi",
@@ -4270,7 +4278,7 @@
     {
         "address": "오키나와(沖縄県) 구니가미(国頭)군",
         "title": "카리유시 프라이빗 비치, 오키나와",
-        "video_id": "PS4xkN2uakQ",
+        "video_id": "lmiulz12lWg",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "Okinawa",
@@ -4435,7 +4443,7 @@
     {
         "address": "야마나시현(山梨県)",
         "title": "야마나가코 1, 야마나시",
-        "video_id": "9a11-zVofUI",
+        "video_id": "-2cY-k_LS_c",
         "video_mode": "fuji",
         "night_view": false,
         "weather_city": "35.47967445052602, 138.61278721998227",
@@ -4470,7 +4478,7 @@
     {
         "address": "돗토리현(鳥取県)",
         "title": "다이센 산, 돗토리",
-        "video_id": "J_5L1BYY4JQ",
+        "video_id": "LpdKD1uCGyM",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "tottori",
@@ -4492,7 +4500,7 @@
     {
         "address": "돗토리현(鳥取県) 돗토리시(鳥取市)",
         "title": "돗토리시 시가지",
-        "video_id": "pStPoy_tnGM",
+        "video_id": "f8dmneVpM2k",
         "video_mode": "city",
         "night_view": false,
         "weather_city": "tottori",
@@ -4503,7 +4511,7 @@
     {
         "address": "돗토리현(鳥取県) 돗토리시(鳥取市)",
         "title": "후시노 해안, Atelier COCOON, 돗토리",
-        "video_id": "b-U8Fjb4wxg",
+        "video_id": "ysijh0D6JoE",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "tottori",
@@ -4591,8 +4599,19 @@
     },
     {
         "address": "야마나시현(山梨県)",
-        "title": "후지산 후지모토스리조트, 야마나시현",
+        "title": "후지산 후지모토스리조트 1, 야마나시현",
         "video_id": "R2GAZO5VuP0",
+        "video_mode": "fuji",
+        "night_view": false,
+        "weather_city": "Fujikawaguchiko",
+        "video_category": "Japan",
+        "time_zone": "Asia/Tokyo",
+        "coords": "35.61245400433366, 138.4623790382333"
+    },
+    {
+        "address": "야마나시현(山梨県)",
+        "title": "후지산 후지모토스리조트 2, 야마나시현",
+        "video_id": "JGyGoXlKZmw",
         "video_mode": "fuji",
         "night_view": false,
         "weather_city": "Fujikawaguchiko",
@@ -4663,17 +4682,6 @@
         "video_id": "rETzjF1SrYU",
         "video_mode": "mountain",
         "night_view": true,
-        "weather_city": "hawaii",
-        "video_category": "Japan",
-        "time_zone": "Pacific/Honolulu",
-        "coords": "21.112392979908925, -157.0937137272354"
-    },
-    {
-        "address": "하와이",
-        "title": "Kilauea Volcano, Hawaii",
-        "video_id": "GUBBHmcidkQ",
-        "video_mode": "mountain",
-        "night_view": false,
         "weather_city": "hawaii",
         "video_category": "Japan",
         "time_zone": "Pacific/Honolulu",
@@ -4826,7 +4834,7 @@
     {
         "address": "가고시마현(鹿児島) 가고시마시(鹿児島市)",
         "title": "사쿠라지마 4, 가고시마",
-        "video_id": "jXJCnu1JMg0",
+        "video_id": "NCSQRCTx-aQ",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "kagoshima",
@@ -4837,9 +4845,9 @@
     {
         "address": "가고시마현(鹿児島) 다루미즈시(垂水市)",
         "title": "가고시마 시내, 사쿠라지마, 가고시마",
-        "video_id": "u25LwApJ3Ew",
+        "video_id": "sNGgBktfgYs",
         "video_mode": "city",
-        "night_view": false,
+        "night_view": true,
         "weather_city": "kagoshima",
         "video_category": "Japan",
         "time_zone": "Asia/Tokyo",
@@ -4914,7 +4922,7 @@
     {
         "address": "이시카와현(石川県) 하쿠이시(羽咋市)",
         "title": "치리하마 해변 1, 이시카와",
-        "video_id": "hb6tETzPC9Q",
+        "video_id": "hM4NnWcL2A0",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "羽咋市",
@@ -4925,20 +4933,8 @@
     },
     {
         "address": "이시카와현(石川県) 하쿠이시(羽咋市)",
-        "title": "치리하마 해변 2, 이시카와",
-        "video_id": "xWM8m1mFs0o",
-        "video_mode": "beach",
-        "night_view": false,
-        "weather_city": "羽咋市",
-        "video_category": "Japan",
-        "time_zone": "Asia/Tokyo",
-        "channel": "@habmigochannel",
-        "coords": "36.890433762481834, 136.79881757771113"
-    },
-    {
-        "address": "이시카와현(石川県) 하쿠이시(羽咋市)",
         "title": "치리하마 해변 3, 이시카와",
-        "video_id": "IwJiS9josmE",
+        "video_id": "qiQtdUTEAmI",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "羽咋市",
@@ -4987,17 +4983,6 @@
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "勝浦市",
-        "video_category": "Japan",
-        "time_zone": "Asia/Tokyo",
-        "coords": "35.53634657274933, 140.14572095741005"
-    },
-    {
-        "address": "지바현(千葉県) 기미쓰시(君津市)",
-        "title": "가노야마 구주쿠야 전망 공원, 지바",
-        "video_id": "6rsMzA877HE",
-        "video_mode": "nature",
-        "night_view": false,
-        "weather_city": "君津市",
         "video_category": "Japan",
         "time_zone": "Asia/Tokyo",
         "coords": "35.53634657274933, 140.14572095741005"
@@ -5140,7 +5125,7 @@
     {
         "address": "오이타현(大分県) 유후인",
         "title": "유후인, 유후인",
-        "video_id": "byUszecraC8",
+        "video_id": "PY8FQBGNmr8",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "別府市",
@@ -5316,7 +5301,7 @@
     {
         "address": "Canada",
         "title": "Niagara Falls 1, Canada",
-        "video_id": "K3bA1a7-6M8",
+        "video_id": "ehLpuB95PNA",
         "video_mode": "city",
         "night_view": false,
         "weather_city": "43.08559379187875, -79.06545544802592",
@@ -5470,7 +5455,7 @@
     {
         "address": "America California",
         "title": "마우이섬 카아나팔리 해변, America",
-        "video_id": "qcZxO5AnQgs",
+        "video_id": "U4dKEK8CWSU",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "Honolulu",
@@ -5593,9 +5578,20 @@
     {
         "address": "England, Whitwell",
         "title": "The Needles Lighthouse, England",
-        "video_id": "bUnIdxAMjU4",
+        "video_id": "3JNbaUyK_pw",
         "video_mode": "beach",
         "night_view": true,
+        "weather_city": "50.622024324981155, -1.2640774123605223",
+        "video_category": "World",
+        "time_zone": "Europe/London",
+        "coords": "50.622024324981155, -1.2640774123605223"
+    },
+    {
+        "address": "England, Whitwell",
+        "title": "Shanklin Chine, England",
+        "video_id": "bIu2RhZ7uH0",
+        "video_mode": "beach",
+        "night_view": false,
         "weather_city": "50.622024324981155, -1.2640774123605223",
         "video_category": "World",
         "time_zone": "Europe/London",
@@ -5658,11 +5654,44 @@
     },
     {
         "address": "Dawlish",
-        "title": "Dawlish station, England",
-        "video_id": "SDoQvzsUboI",
+        "title": "Dawlish 1, England",
+        "video_id": "U3AIJ9UxHuM",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "Dawlish",
+        "video_category": "World",
+        "time_zone": "Europe/London",
+        "coords": "50.58618880516307, -3.4689912549213537"
+    },
+    {
+        "address": "Dawlish",
+        "title": "Dawlish 2, England",
+        "video_id": "5Sm-0Jc-_eI",
+        "video_mode": "beach",
+        "night_view": false,
+        "weather_city": "Dawlish",
+        "video_category": "World",
+        "time_zone": "Europe/London",
+        "coords": "50.58618880516307, -3.4689912549213537"
+    },
+    {
+        "address": "Dawlish",
+        "title": "Dawlish 3, England",
+        "video_id": "yOOoPrg7-YY",
+        "video_mode": "beach",
+        "night_view": false,
+        "weather_city": "Dawlish",
+        "video_category": "World",
+        "time_zone": "Europe/London",
+        "coords": "50.58618880516307, -3.4689912549213537"
+    },
+    {
+        "address": "Dartmouth",
+        "title": "Dartmouth, England",
+        "video_id": "2xRNVVDBiOU",
+        "video_mode": "beach",
+        "night_view": false,
+        "weather_city": "Dartmouth",
         "video_category": "World",
         "time_zone": "Europe/London",
         "coords": "50.58618880516307, -3.4689912549213537"
@@ -5892,7 +5921,18 @@
     {
         "address": "Norway",
         "title": "Oslo, Norway",
-        "video_id": "Cd5fYrohXHA",
+        "video_id": "YRjOmL_5O-E",
+        "video_mode": "city",
+        "night_view": true,
+        "weather_city": "Oslo",
+        "video_category": "World",
+        "time_zone": "Europe/Oslo",
+        "coords": "59.913627720800385, 10.766575796730319"
+    },
+    {
+        "address": "Norway",
+        "title": "Oslo, Norway",
+        "video_id": "jVxRTu2Dp_c",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "Oslo",
@@ -6170,8 +6210,85 @@
     },
     {
         "address": "Spain",
-        "title": "Port d'Andratx, Spain",
-        "video_id": "irVJ0o6O_Xw",
+        "title": "Port d'Andratx 1, Spain",
+        "video_id": "rJr3iwty-WM",
+        "video_mode": "beach",
+        "night_view": true,
+        "weather_city": "Port d'Andratx, Spain",
+        "video_category": "World",
+        "time_zone": "Europe/Madrid",
+        "coords": "39.5450, 2.3828"
+    },
+    {
+        "address": "Spain",
+        "title": "Port d'Andratx 2, Spain",
+        "video_id": "IV4qkPqjNgI",
+        "video_mode": "beach",
+        "night_view": true,
+        "weather_city": "Port d'Andratx, Spain",
+        "video_category": "World",
+        "time_zone": "Europe/Madrid",
+        "coords": "39.5450, 2.3828"
+    },
+    {
+        "address": "Spain",
+        "title": "Port d'Andratx 3, Spain",
+        "video_id": "219vJv-h3nE",
+        "video_mode": "beach",
+        "night_view": true,
+        "weather_city": "Port d'Andratx, Spain",
+        "video_category": "World",
+        "time_zone": "Europe/Madrid",
+        "coords": "39.5450, 2.3828"
+    },
+    {
+        "address": "Spain",
+        "title": "Port d'Andratx 4, Spain",
+        "video_id": "RDvsABAF32E",
+        "video_mode": "beach",
+        "night_view": true,
+        "weather_city": "Port d'Andratx, Spain",
+        "video_category": "World",
+        "time_zone": "Europe/Madrid",
+        "coords": "39.5450, 2.3828"
+    },
+    {
+        "address": "Spain",
+        "title": "Port d'Andratx 5, Spain",
+        "video_id": "Qp8-nmUmLZc",
+        "video_mode": "beach",
+        "night_view": true,
+        "weather_city": "Port d'Andratx, Spain",
+        "video_category": "World",
+        "time_zone": "Europe/Madrid",
+        "coords": "39.5450, 2.3828"
+    },
+    {
+        "address": "Spain",
+        "title": "Port d'Andratx 6, Spain",
+        "video_id": "WcCYUPaXqdY",
+        "video_mode": "beach",
+        "night_view": true,
+        "weather_city": "Port d'Andratx, Spain",
+        "video_category": "World",
+        "time_zone": "Europe/Madrid",
+        "coords": "39.5450, 2.3828"
+    },
+    {
+        "address": "Spain",
+        "title": "Port d'Andratx 7, Spain",
+        "video_id": "DT0W1DvIXcU",
+        "video_mode": "beach",
+        "night_view": true,
+        "weather_city": "Port d'Andratx, Spain",
+        "video_category": "World",
+        "time_zone": "Europe/Madrid",
+        "coords": "39.5450, 2.3828"
+    },
+    {
+        "address": "Spain",
+        "title": "Port d'Andratx 8, Spain",
+        "video_id": "NG7NAbGUTU4",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "Port d'Andratx, Spain",
@@ -6457,7 +6574,7 @@
     {
         "address": "Germany",
         "title": "Einbeck, Germany",
-        "video_id": "USKWfyL_YMo",
+        "video_id": "QREXTUmv7g4",
         "night_view": true,
         "video_mode": "city",
         "weather_city": "Einbeck, Germany",
@@ -6511,8 +6628,8 @@
     },
     {
         "address": "Iceland",
-        "title": "Views from Perlan in Reykjavík, Iceland",
-        "video_id": "UGHgKAgVYqU",
+        "title": "Þorbjorn, volcano hotspot, Iceland",
+        "video_id": "7WaoiIyxS0w",
         "night_view": false,
         "video_mode": "beach",
         "weather_city": "63.87840194577784, -22.432730542394374",
@@ -6589,7 +6706,7 @@
     {
         "address": "Australia",
         "title": "Sydney Harbour, Australia",
-        "video_id": "OdqPNLEten0",
+        "video_id": "Cb76YEXnJa8",
         "night_view": true,
         "video_mode": "beach",
         "weather_city": "Sydney",
@@ -6631,17 +6748,6 @@
         "check": true,
         "channel": "@municipalityofkos1518",
         "coords": "36.836908227346086, 27.083808080214585"
-    },
-    {
-        "address": "Saudi Arabia",
-        "title": "Masjid al-Haram, Mecca, Saudi Arabia",
-        "video_id": "2BSm_oLDXT4",
-        "night_view": true,
-        "video_mode": "city",
-        "weather_city": "Mecca, Saudi Arabia",
-        "video_category": "World",
-        "time_zone": "Asia/Riyadh",
-        "coords": "21.411066352951735, 39.78989589702559"
     },
     {
         "address": "French Overseas Collectivity",
@@ -6760,7 +6866,7 @@
     {
         "address": "Portugal",
         "title": "Ribeira Brava, Portugal",
-        "video_id": "0NkS949XOqY",
+        "video_id": "TgcPrgWL7MI",
         "night_view": true,
         "video_mode": "city",
         "weather_city": "Ribeira Brava, Portugal",
@@ -6771,7 +6877,7 @@
     {
         "address": "Portugal",
         "title": "Lisbon, Portugal",
-        "video_id": "kIgfYVRE6JY",
+        "video_id": "lZ4qT__crz0",
         "night_view": true,
         "video_mode": "city",
         "weather_city": "Lisbon, Portugal",
@@ -6804,13 +6910,14 @@
     {
         "address": "Chile",
         "title": "EL QUISCO EN VIVO, Chile",
-        "video_id": "NoTHHgUJ4r4",
+        "video_id": "zTHdk6zw_30",
         "night_view": true,
         "video_mode": "beach",
         "weather_city": "EL QUISCO, Chile",
         "video_category": "World",
         "time_zone": "America/Santiago",
-        "coords": "-33.59445226348969, -71.60915961866502"
+        "coords": "-33.59445226348969, -71.60915961866502",
+        "channel": "sanantonioimagen"
     },
     {
         "address": "Chile",
@@ -6821,7 +6928,8 @@
         "weather_city": "CARTAGENA, Chile",
         "video_category": "World",
         "time_zone": "America/Santiago",
-        "coords": "-33.59445226348969, -71.60915961866502"
+        "coords": "-33.59445226348969, -71.60915961866502",
+        "channel": "sanantonioimagen"
     },
     {
         "address": "Chile",
@@ -6832,18 +6940,20 @@
         "weather_city": "Avenida Barros Luco, Chile",
         "video_category": "World",
         "time_zone": "America/Santiago",
-        "coords": "-33.59445226348969, -71.60915961866502"
+        "coords": "-33.59445226348969, -71.60915961866502",
+        "channel": "sanantonioimagen"
     },
     {
         "address": "Chile",
         "title": "San Antonio, Chile",
-        "video_id": "mR3s8pTl1EI",
+        "video_id": "zgvjjaQGRzo",
         "night_view": true,
         "video_mode": "beach",
         "weather_city": "San Antonio, Chile",
         "video_category": "World",
         "time_zone": "America/Santiago",
-        "coords": "-33.59445226348969, -71.60915961866502"
+        "coords": "-33.59445226348969, -71.60915961866502",
+        "channel": "sanantonioimagen"
     },
     {
         "address": "Czech",
@@ -6861,7 +6971,7 @@
     {
         "address": "Turks and Caicos Islands",
         "title": "Leeward, Providenciales, Turks and Caicos Islands",
-        "video_id": "UiSQisHVLiw",
+        "video_id": "dStORnuFs6Y",
         "night_view": false,
         "video_mode": "beach",
         "weather_city": "Leeward, Providenciales, Turks and Caicos Islands",
@@ -7258,7 +7368,7 @@
     {
         "address": "부산시 해운대구",
         "title": "광안대교 1, 부산",
-        "video_id": "4l9uGCTTi_w",
+        "video_id": "r2_vzR49Nkw",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "busan",
@@ -7270,7 +7380,7 @@
     {
         "address": "부산시 해운대구",
         "title": "송정해수욕장, 부산",
-        "video_id": "urb9PT3Zq4w",
+        "video_id": "93NL10kjVo0",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "busan",
@@ -7282,7 +7392,7 @@
     {
         "address": "부산시 해운대구",
         "title": "광안대교 2, 부산",
-        "video_id": "84CavklLRYQ",
+        "video_id": "c_mxbp4tR_8",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "busan",
@@ -7403,7 +7513,7 @@
     {
         "address": "대전",
         "title": "대전엑스포, 한빛탑, 대전",
-        "video_id": "ZvfO8z3e00U",
+        "video_id": "Er21MmmWWfc",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "Daejeon-shi",
@@ -7447,7 +7557,7 @@
     {
         "address": "고성군",
         "title": "설악산 울산바위 전경, 고성군",
-        "video_id": "_U1nYqiOaOA",
+        "video_id": "O1Hh9DCIdmQ",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "Goseong-gun",
