@@ -144,7 +144,7 @@
     {
         "address": "교토(京都市) 다이토구(台東区)",
         "title": "히가시 혼간지(東本願寺) 2, 교토",
-        "video_id": "X-8uA-1a0Cw",
+        "video_id": "vZHWrcD392w",
         "video_mode": "landmark",
         "night_view": true,
         "weather_city": "kyoto",
@@ -209,7 +209,7 @@
     {
         "address": "홋카이도(北海道) 하코다테시(函館市)",
         "title": "하코다테역・하코다테만",
-        "video_id": "sZbwRE30oic",
+        "video_id": "LnVAq72fGDs",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "函館市",
@@ -222,7 +222,7 @@
     {
         "address": "홋카이도(北海道) 하코다테시(函館市)",
         "title": "하코다테역 앞",
-        "video_id": "AFWgdp7FRsE",
+        "video_id": "XSX9crFoIGs",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "函館市",
@@ -352,7 +352,7 @@
     {
         "address": "홋카이도(北海道) 삿포로시(札幌市)",
         "title": "북해도 개척촌, 홋카이도",
-        "video_id": "jFEqIllNenc",
+        "video_id": "vghVkZCR0dQ",
         "video_mode": "city",
         "night_view": false,
         "weather_city": "札幌市",
@@ -654,7 +654,7 @@
     {
         "address": "홋카이도 아부타(虻田)군",
         "title": "니세코 빌리지, 홋카이도",
-        "video_id": "t5A2CWjQNvw",
+        "video_id": "WLZfU60m35E",
         "video_mode": "landmark",
         "night_view": false,
         "weather_city": "札幌市",
@@ -680,7 +680,7 @@
     {
         "address": "가나가와현(神奈川県) 요코하마(横浜市)",
         "title": "미나토미라이/기샤미치 1, 요코하마",
-        "video_id": "dTN6ZjnRdz0",
+        "video_id": "aSRXrLVlqpo",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "yokohama",
@@ -693,7 +693,7 @@
     {
         "address": "가나가와현(神奈川県) 요코하마(横浜市)",
         "title": "미나토미라이/기샤미치 2, 요코하마",
-        "video_id": "R5jx7jX8oos",
+        "video_id": "Kl9IL0ELgB4",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "yokohama",
@@ -1156,7 +1156,7 @@
     {
         "address": "기후현 게로시",
         "title": "스이메이칸 일본정원, 기후현 게로시 ",
-        "video_id": "GH9JKADi4R0",
+        "video_id": "OepEGlKd0xc",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "高山市",
@@ -1393,7 +1393,7 @@
     {
         "address": "시즈오카현(静岡県) 이토",
         "title": "이토 컨트리 클럽, 시즈오카",
-        "video_id": "A78xTAGCjTQ",
+        "video_id": "EefATdYophs",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "ito-shi",
@@ -1732,7 +1732,7 @@
     {
         "address": "후쿠시마현(福島県) 고리야마시(福島県市)",
         "title": "토호쿠 신칸센, 후쿠시마",
-        "video_id": "6Xd64QqANYQ",
+        "video_id": "ZWnRPHTa5vg",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "fukushima",
@@ -1784,7 +1784,7 @@
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
         "title": "레인보우 브릿지, 도요스, 후지산",
-        "video_id": "81jFS87fR8w",
+        "video_id": "6YKDM_vFyfk",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "tokyo",
@@ -1825,7 +1825,7 @@
     {
         "address": "도쿄도(東京都) 스미다구(墨田区)",
         "title": "도쿄 스카이트리(東京スカイツリー) 1",
-        "video_id": "xLxXSk-PB0o",
+        "video_id": "AFMKW-QcOC0",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -1834,20 +1834,6 @@
         "map": "map_tokyo.png",
         "desc": "도쿄도 다이토구 키요카와에 위치한 호텔 주요 도쿄에 설치된 카메라로, 도쿄 스카이트리・스미다강 불꽃놀이・도쿄 상공의 날씨를 볼 수 있다. ",
         "coords": "35.431998696172656, 139.6376310445632"
-    },
-    {
-        "address": "도쿄도(東京都) 다이토구",
-        "title": "아사쿠사바시역, 도쿄",
-        "video_id": "Ai6OATJYqlk",
-        "video_mode": "city",
-        "night_view": true,
-        "weather_city": "tokyo",
-        "video_category": "Japan",
-        "time_zone": "Asia/Tokyo",
-        "map": "map_tokyo.png",
-        "desc": "도쿄도 다이토구 야나기바시의 JR 아사쿠사바시역 부근에 설치된 카메라로, JR 아사쿠사바시역・아사쿠사바시역 앞 사거리・오차노미즈 방면을 볼 수 있다.",
-        "coords": "35.431998696172656, 139.6376310445632",
-        "channel": "japanwindowscapes"
     },
     {
         "address": "도쿄도(東京都) 미나토구(港区)",
@@ -2035,7 +2021,7 @@
     {
         "address": "도쿄도(東京都) 시부야(渋谷区)",
         "title": "『SHIBUYA AI Vision』 미야마스자카 교차로, 도쿄",
-        "video_id": "VF0shLBvETk",
+        "video_id": "six6fVA6Gxo",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2087,7 +2073,7 @@
     {
         "address": "도쿄도(東京都) 스기나미구",
         "title": "리쇼코세이카이 후몬칸, 도쿄",
-        "video_id": "0Ij3cYjhTds",
+        "video_id": "qIni4lLpcQE",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -2920,7 +2906,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 1, 나가노",
-        "video_id": "l4U0uKPgoI0",
+        "video_id": "oUOPIDAiko0",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -2933,7 +2919,7 @@
     {
         "address": "나가노현(長野県)",
         "title": "스와호 신규 스와 분지 2, 나가노",
-        "video_id": "wvrpUJumzOM",
+        "video_id": "hFESZJdRq1A",
         "video_mode": "nature",
         "night_view": false,
         "weather_city": "飯田市",
@@ -3712,7 +3698,7 @@
     {
         "address": "도쿄도 고토구(江東区)",
         "title": "디즈니랜드, 도쿄",
-        "video_id": "sKrpgDuZqLI",
+        "video_id": "0l4X6CMe1yg",
         "video_mode": "city",
         "night_view": true,
         "weather_city": "tokyo",
@@ -4202,7 +4188,7 @@
     {
         "address": "오이타현(大分県) 벳푸시(別府市)",
         "title": "벳푸 베이",
-        "video_id": "Hyv2bZCmiBM",
+        "video_id": "g4_ly1GF6iQ",
         "video_mode": "beach",
         "night_view": false,
         "weather_city": "別府市",
@@ -4258,7 +4244,7 @@
     {
         "address": "오키나와(沖縄県) 구니가미(国頭)군",
         "title": "카리유시 프라이빗 비치, 오키나와",
-        "video_id": "lmiulz12lWg",
+        "video_id": "daxIor58vwQ",
         "video_mode": "beach",
         "night_view": true,
         "weather_city": "Okinawa",
@@ -5126,7 +5112,7 @@
     {
         "address": "오이타현(大分県) 유후인",
         "title": "유후인, 유후인",
-        "video_id": "n_5MX8FW564",
+        "video_id": "aTjkOuBQ6WI",
         "video_mode": "mountain",
         "night_view": false,
         "weather_city": "別府市",
@@ -6575,7 +6561,7 @@
         "address": "Germany",
         "title": "Baden-Baden, Germany",
         "video_id": "JBKs0WYlbHQ",
-        "night_view": true,
+        "night_view": false,
         "video_mode": "city",
         "weather_city": "Baden-Baden, Germany",
         "video_category": "World",
